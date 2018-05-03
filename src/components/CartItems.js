@@ -2,7 +2,7 @@ import React from 'react'
 
 const CartItems = props => {
 
-  let cartItemList = props.cartItems.map(
+  let cartItemList = props.cartItemsList.map(
     (items, i) => {
 
     return (
